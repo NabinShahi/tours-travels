@@ -1,0 +1,91 @@
+.packagecard{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	border-radius: 2px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.packagecard:hover{
+	box-shadow: 0px 0px 13px grey;
+}
+
+.packagecard-body{
+	flex: 0.75;
+}
+
+.packagecard-title{
+	background-color: lightgrey;
+	width: 100%;
+	padding: 10px;
+	padding-left: 20px;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items: baseline;
+}
+
+.packagecard-title .left{
+	color: teal;
+	font-size: 1.8em;
+	font-weight: 700;
+	overflow: hidden;
+}
+
+.packagecard-title .right{
+	color: red;
+	font-size: 1.7em;
+	font-weight: 700;
+}
+
+.packagecard-info{
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+.packagecard-desc{
+	flex: 0.3;
+	height: 100%;
+	background-color: lightgrey;
+	padding-left: 20px;
+	padding-top: 10px;
+	color: white;
+}
+
+.packagecard-value{
+	padding:10px;
+	flex: 0.7;
+	height: 100%;
+	background-color: rgb(240,240,240);
+	color: grey;
+}
+
+.packagecard-value div, .packagecard-desc div{
+	padding-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.packagecard-more{
+	display: inline-block;
+	background-color: #e12120;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.packagecard-image{
+	flex: 0.25;
+	height: 200px;
+}
+
+.packagecard-image img{
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+}
+

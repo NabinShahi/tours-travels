@@ -1,0 +1,71 @@
+.conformation-title{
+	margin-top: 20px;
+	color: grey;
+}
+
+.conformation-inputgroup{
+	display: flex;
+	flex-direction: column;
+	color: grey;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.conformation-inputbar{
+	display: flex;
+	flex-direction: row;
+}
+
+.conformation-inputinfo{
+	padding-bottom: 5px;
+}
+
+.conformation-inputbar label{
+	flex: 0.2;
+}
+
+.conformation-input{
+	flex: 0.8;
+}
+
+.conformation-terms{
+	margin: 50px 10%;
+	text-align: justify;
+}
+
+.conformation-terms ol{
+	height: 300px;
+	overflow: auto;
+	border: 2px solid grey;
+	box-sizing: border-box;
+}
+
+.conformation-terms ol li{
+	padding-top: 5px;
+	padding-right: 20px;
+}
+
+.conformatiobutton button{
+	margin-top: 20px;
+	padding: 10px;
+	color: white;
+	background-color: red;
+	border: 0px;
+	border-radius: 5px;
+	font-size: 1.3em;
+	min-width: 100px;
+	box-shadow: 2px 2px 1px grey;
+}
+
+.conformatiobutton button[disabled]{
+	background-color: lightgrey;
+	color: grey;
+}
+
+.conformation-final{
+	margin-top: 10px;
+	font-size: 1.3em;
+	color: green;
+	font-weight: 900;
+}
